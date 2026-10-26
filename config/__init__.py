@@ -1,0 +1,43 @@
+"""Configuration package for the ADK SDP-Capable Agent Template."""
+
+from .settings import (
+    AGENT_ENGINE_REGION,
+    DATA_STORE_ID,
+    DEIDENTIFY_TEMPLATE_PATH,
+    FALLBACK_GEMINI_MODEL,
+    GEMINI_ENTERPRISE_ENGINE_ID,
+    GEMINI_MODEL,
+    INSPECT_TEMPLATE_PATH,
+    LOCATION,
+    PROJECT_ID,
+    PROJECT_NUMBER,
+    PROMPT_FILTER_TEMPLATE_ID,
+    PROMPT_FILTER_TEMPLATE_PATH,
+    RESPONSE_FILTER_TEMPLATE_ID,
+    RESPONSE_FILTER_TEMPLATE_PATH,
+    VERTEX_LOCATION,
+    AgentSettings,
+    get_settings,
+    is_placeholder_value,
+)
+
+__all__ = [
+    "AGENT_ENGINE_REGION",
+    "DATA_STORE_ID",
+    "DEIDENTIFY_TEMPLATE_PATH",
+    "FALLBACK_GEMINI_MODEL",
+    "GEMINI_ENTERPRISE_ENGINE_ID",
+    "GEMINI_MODEL",
+    "INSPECT_TEMPLATE_PATH",
+    "LOCATION",
+    "PROJECT_ID",
+    "PROJECT_NUMBER",
+    "PROMPT_FILTER_TEMPLATE_ID",
+    "PROMPT_FILTER_TEMPLATE_PATH",
+    "RESPONSE_FILTER_TEMPLATE_ID",
+    "RESPONSE_FILTER_TEMPLATE_PATH",
+    "VERTEX_LOCATION",
+    "AgentSettings",
+    "get_settings",
+    "is_placeholder_value",
+]
